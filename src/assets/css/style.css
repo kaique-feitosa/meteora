@@ -1,0 +1,23 @@
+:root {
+  --fonte-principal: "Inter", serif;
+
+  --preto: #000000;
+  --branco: #ffffff;
+  --cinza: #adb5bd;
+  --verde: #daff01;
+  --roxo: #9353ff;
+  --cinza-escuro: #212529;
+
+  --laranja: #f87f46;
+  --coral: #ee6471;
+}
+
+* {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: var(--fonte-principal);
+}
